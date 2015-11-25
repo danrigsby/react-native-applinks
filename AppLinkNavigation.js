@@ -11,7 +11,7 @@
  */
 'use strict';
 
-var LinkingIOS = require('LinkingIOS');
+var LinkingIOS = require('react-native').LinkingIOS;
 var AppLinkURL = require('./AppLinkURL');
 
 var USER_AGENT = 'react-native-applinks 0.0.1';
