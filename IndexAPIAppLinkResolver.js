@@ -16,7 +16,7 @@ var AppLink = require('./AppLink');
 
 class IndexAPIAppLinkResolver extends AppLinkResolver {
   constructor(facebook_token: String) {
-    super(this.props);
+    super();
     this._facebookToken = facebook_token;
   }
 
